@@ -1,7 +1,7 @@
-lab5
+Geocoding and creating choropleth Maps
 ================
-ignacio
-February 21, 2017
+Ignacio Pezo Salazar
+
 
 ### 1. Load dataset of home prices and assests from Zillow
 
@@ -12,7 +12,7 @@ February 21, 2017
     #fixing some variables
     dat$House.Price <- as.numeric(gsub( ",","", dat$House.Price ))
 
-### 2. Add a census tract FIPS ID to each home (spatial join)
+### 2. Adding a census tract FIPS ID to each home (spatial join)
 
     #cleaning the addresses
     Fadd <- dat$Street.Address.of.House
@@ -315,10 +315,3 @@ layout(matrix(c(rep(1,12), 3, 2, 3), nrow=3, ncol=5), widths=c(5,1))
 ```
 
 ![](Lab5_files/figure-markdown_github/unnamed-chunk-3-2.png)
-
-Lab6
-----
-
-### 1. Create a map of property values in Buffalo
-
-### 2. Create a map of the change in property values
