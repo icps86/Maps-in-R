@@ -3,7 +3,7 @@ Geocoding and creating choropleth Maps
 Ignacio Pezo Salazar
 
 
-### 1. Load dataset of home prices and assests from Zillow
+### 1. Loading dataset of home prices and assests from Zillow
 
     #loading the dataset from Zillow
     dat <- read.csv( "https://github.com/lecy/hedonic-prices/raw/master/Data/Housing%20Price%20In-Class%20Exercise%20(Responses).csv", stringsAsFactors=FALSE ) 
